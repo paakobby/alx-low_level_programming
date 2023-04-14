@@ -8,7 +8,7 @@
  *
  * @max: int
  *
- * @Return: a pointer to the newly created array;
+ * Return: a pointer to the newly created array;
  *  if min > max, return NULL, if malloc fails, return NULL
  */
 int *array_range(int min, int max)
