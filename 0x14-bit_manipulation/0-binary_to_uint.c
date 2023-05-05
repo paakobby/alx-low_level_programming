@@ -35,5 +35,10 @@ unsigned int binary_to_uint(const char *b)
 		b++;
 	}
 
-	return (result / 2);
+	if (*(b - 1) == '1')
+	{
+		result += 1;
+	}
+
+	return (result >> 1);
 }
